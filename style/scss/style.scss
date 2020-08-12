@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title_h3 {
+    font-size: 38px;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+}
+
+@media (min-width: 1605px) {
+    .container-fluid {
+        width: 1605px;
+    }
+}
+
+@import '../scss/colors.scss';
+@import '../scss/header.scss';
+@import '../scss/catalog_block.scss';
+@import '../scss/sales.scss';

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,UAAM;EACF,KAAK,ECFG,OAAO",
+"sources": ["sales.scss","colors.scss"],
+"names": [],
+"file": "sales.css"
+}
