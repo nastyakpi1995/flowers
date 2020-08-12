@@ -1,21 +1,68 @@
+@import '../scss/colors.scss';
+
 body {
     margin: 0;
     padding: 0;
 }
 
-.title_h3 {
-    font-size: 38px;
-    line-height: 160%;
+.h1 {
+    font-size: 64px;
+    line-height: 102px;
     letter-spacing: 0.1em;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-size: 38px;
+    line-height: 61px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.h5 {
+    font-size: 21px;
+    line-height: 160%;
+}
+
+.text-1 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+.text-2 {
+    font-size: 18px;
+    line-height: 29px;
+}
+.text-3 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text-4 {
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 37px;
+}
+.text-big {
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.text_green {
+    color: #1A9940 !important;
 }
 
 @media (min-width: 1605px) {
     .container-fluid {
         width: 1605px;
     }
+
+    .container {
+        max-width: 1860px;
+    }
 }
 
-@import '../scss/colors.scss';
-@import '../scss/header.scss';
-@import '../scss/catalog_block.scss';
-@import '../scss/sales.scss';
+
+

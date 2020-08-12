@@ -13,41 +13,42 @@
     <link rel="stylesheet" href="./style/scss/catalog_block.css">
     <link rel="stylesheet" href="./style/scss/style.css">
     <link rel="stylesheet" href="./style/scss/sales.css">
+    <link rel="stylesheet" href="./style/scss/mono_bouquets.css">
+    <link rel="stylesheet" href="./style/scss/photo_blocks.css">
 </head>
 <body>
 
 <header>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row header">
             <div class="logo">
                 <img src="./img/logo.svg" alt="logo">
             </div>
 
-            <div class="header__menu">
+            <div>
                 <nav>
-                    <ul class="header__ul">
+                    <ul>
                       <li>
-                        <a class="nav-link header__item" href="#">Каталог</a>
+                        <a href="#">Каталог</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link header__item" href="#">Про нас</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link header__item" href="#">Блог</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link header__item" href="#">Контакти</a>
-                      </li>
+                        <li>
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Блог</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакти</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
-            
 
             <div class="header__request_phone">
-                  <a class="nav-link header__order" href="#">Замовити дзвінок</a>
+                  <a href="#">Замовити дзвінок</a>
             </div>
             <div class="header__card">
-              <a class="nav-link" href="#">
+              <a href="#">
                 <img src="./img/shopping-bag.svg" alt="basket">
               </a>
             </div>
@@ -56,11 +57,11 @@
 </header>
 
 <main role="main">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row catalog">
         <div class="catalog_block">
-          <div>
-            <h1 class="catalog_title__h1">квіти роблять ВАС щасливими</h1>
+          <div class="catalog_block__title">
+            <h1 class="h1">квіти роблять ВАС щасливими</h1>
           </div>
           
           <div class="catalog_block__text">
@@ -68,21 +69,182 @@
               Покажіть для своїх рідних та близьких людейнаскільки вони для вас особливі
             </p>
           </div>
-          <div class="catalog_block__button">
-            <button type="button" class="btn catalog__button">Перейти в каталог</button>
+          <div class="catalog_block__link">
+            <a href="#">Перейти в каталог</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row sales">
-        <div class="sales__title">
-          <h3 class="title_h3 sales__h3">Хіт продажів</h3>
-        </div>
-       
-      </div>
+    <div class="container-fluid">
+        <div class="sales">
+            <div class="block__title">
+                <h3 class="h3">Хіт продажів</h3>
+            </div>
 
+            <nav>
+                <ul>
+                    <li>
+                        <a class="text-4" href="#">Всі хіти</a>
+                    </li>
+                    <li>
+                        <a class="text-4" href="#">Букети</a>
+                    </li>
+                    <li>
+                        <a class="text-4" href="#">Квіти поштучно</a>
+                    </li>
+                    <li>
+                        <a class="text-4" href="#">Подарунки</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 sales_card">
+                <a href="#">
+                    <div class="sales_card__img">
+                        <img src="./img/card/Rectangle%206.png" alt="">
+                    </div>
+                    <div class="sales_card__block">
+                        <p class="text-1">букет «berry»</p>
+                        <div class="sales_card__text">
+                            <p class=" text-1">Розмір  L</p>
+                            <p class=" text-1 text_green">В наявності</p>
+                            <p class=" text-1">Артикул  10234</p>
+                        </div>
+                    </div>
+
+                    <div class="sales_card__price">
+                        <p class="text-2">
+                            <b>1 250 грн.</b>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 sales_card">
+                <a href="#">
+                    <div class="sales_card__img">
+                        <img src="./img/card/Rectangle%206.png" alt="">
+                    </div>
+                    <div class="sales_card__block">
+                        <p class="text-1">букет «berry»</p>
+                        <div class="sales_card__text">
+                            <p class=" text-1">Розмір  L</p>
+                            <p class=" text-1 text_green">В наявності</p>
+                            <p class=" text-1">Артикул  10234</p>
+                        </div>
+                    </div>
+                    <div class="sales_card__price">
+                        <p class="text-2">
+                            <b>66 грн.</b>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 sales_card">
+                <a href="#">
+                    <div class="sales_card__img">
+                        <img src="./img/card/Rectangle%206.png" alt="">
+                    </div>
+                    <div class="sales_card__block">
+                        <p class="text-1">букет «berry»</p>
+                        <div class="sales_card__text">
+                            <p class=" text-1">Розмір  L</p>
+                            <p class=" text-1 text_green">В наявності</p>
+                            <p class=" text-1">Артикул  10234</p>
+                        </div>
+                    </div>
+                    <div class="sales_card__price">
+                        <p class="text-2">
+                            <b>1 200 грн.</b>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 sales_card">
+                <a href="#">
+                    <div class="sales_card__img">
+                        <img src="./img/card/Rectangle%206.png" alt="">
+                    </div>
+                    <div class="sales_card__block">
+                        <p class="text-1">букет «berry»</p>
+                        <div class="sales_card__text">
+                            <p class=" text-1">Розмір  L</p>
+                            <p class=" text-1 text_green">В наявності</p>
+                            <p class=" text-1">Артикул  10234</p>
+                        </div>
+                    </div>
+                    <div class="sales_card__price">
+                        <p class="text-2">
+                            <b>1 750 грн.</b>
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="mono_bouquets">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mono_bouquets__title">
+                        <h3 class="h3">Монобукети — бестселери здатні передати ваші почуття</h3>
+                    </div>
+                    <div>
+                        <p class="text-4">
+                            В 2020 дуже популярні монобукети або букети з польових квітів. <br> Завдяки своїй простоті і легкості вони виглядають дуже стильно.
+                        </p>
+                    </div>
+                    <div class="mono_bouquets__inform">
+                        <p class="text-2">
+                            В якості основи використовують троянди, гвоздики, анемони, іриси та інші квіти, які ви любите. Монобукети лаконічні та не містять зайвих елементів. Дизайнерська упаковка підкреслить стиль і елегантність букета.
+                        </p>
+                    </div>
+                    <div class="mono_bouquets__link">
+                        <a href="#">Підібрати</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="mono_bouquets__img">
+                        <img src="./img/photo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="photo_blocks">
+            <div class="block__title">
+                <h3 class="h3">Букети для кожного</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div>
+                        <img class="photo_blocks__first"  src="./img/flowers/photo_1.png" alt="">
+                        <img src="./img/flowers/photo_2.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img class="photo_blocks__first"  src="./img/flowers/Photo_3.png" alt="">
+                        <img src="./img/flowers/photo_4.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img class="photo_blocks__first" src="./img/flowers/Rectangle_5.png" alt="">
+                        <img src="./img/flowers/photo_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
