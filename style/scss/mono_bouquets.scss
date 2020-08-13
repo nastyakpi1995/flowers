@@ -4,43 +4,57 @@
 .mono_bouquets {
   margin-top: $top-default;
 
-  img {
-    overflow: hidden;
-    box-sizing: border-box;
-    object-fit: cover;
-    width: 100%;
-    position: relative;
-    display: block;
-    height: 100%;
-  }
+  .mono_bouquets__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
 
+    .mono_bouquets__title {
+      margin-bottom: 60px;
 
-  .mono_bouquets__title {
-    margin-bottom: 60px;
-  }
-
-  .mono_bouquets__inform {
-    margin: 40px 0 60px 0;
-
-    p {
-      color: $grey4;
+      h3 {
+        color: #234612;
+      }
     }
-  }
 
-  .mono_bouquets__link {
-    a {
-      font-size: 21px;
-      line-height: 160%;
-      letter-spacing: 0.1em;
-      color: $secondary-color;
-      text-transform: uppercase;
-      border: 1px solid $secondary-color;
-      border-radius: 0;
+    .mono_bouquets__inform {
+      margin: 40px 0 60px 0;
+
+      p {
+        color: $grey4;
+      }
     }
   }
 
   .mono_bouquets__img {
     display: flex;
     justify-content: flex-end;
+
+    img {
+      overflow: hidden;
+      box-sizing: border-box;
+      object-fit: cover;
+      width: 100%;
+      position: relative;
+      display: block;
+      height: 100%;
+    }
+  }
+}
+
+.button__link {
+  a {
+    padding: 11px 41px;
+    width: fit-content;
+
+    font-size: 21px;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+    color: $secondary-color;
+    text-transform: uppercase;
+    border: 1px solid $secondary-color;
+    border-radius: 0;
+    display: block;
   }
 }

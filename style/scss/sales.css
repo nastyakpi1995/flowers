@@ -1,6 +1,11 @@
+.margin-default {
+  margin-top: 110px;
+}
+
 .block__title {
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
 }
 .block__title h3 {
   border-bottom: 2px solid #234612;
@@ -10,20 +15,17 @@
 .block__title h3:after {
   content: "";
   position: absolute;
-  bottom: -16px;
+  bottom: -10px;
   height: 1px;
   left: 27px;
   width: 253px;
   background: #234612;
 }
 
-.sales {
-  margin-top: 110px;
-}
 .sales nav {
   display: flex;
   justify-content: center;
-  margin: 60px 0;
+  margin-bottom: 60px;
 }
 .sales nav ul {
   display: flex;
@@ -41,13 +43,14 @@
   padding: 0;
 }
 
-.sales_card {
-  padding: 0 15px 0 0;
+.sales__div .sales_card:last-child {
+  padding: 0;
 }
-.sales_card a {
+.sales__div .sales_card {
+  padding: 0 15px 0 0;
   text-decoration: none;
 }
-.sales_card a .sales_card__img img {
+.sales__div .sales_card .sales_card__img img {
   overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
@@ -56,22 +59,27 @@
   display: block;
   height: 100%;
 }
-.sales_card a .sales_card__price {
+.sales__div .sales_card .sales_card__block .sales_card__title {
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+  color: #234612;
+}
+.sales__div .sales_card .sales_card__block .sales_card__price {
   color: #A91D20;
 }
-.sales_card a .sales_card__block .sales_card__text {
+.sales__div .sales_card .sales_card__block .sales_card__text {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+  margin-bottom: 10px;
 }
-.sales_card a .sales_card__block .sales_card__text p {
+.sales__div .sales_card .sales_card__block .sales_card__text .sales_card__size {
+  display: flex;
+}
+.sales__div .sales_card .sales_card__block .sales_card__text div {
+  margin-right: 10px;
   color: #443E3E;
   padding: 0;
   text-transform: none;
-}
-.sales_card a .sales_card__block p {
-  color: #234612;
-  text-transform: uppercase;
-  margin: 20px 0 10px 0;
 }
 
 /*# sourceMappingURL=sales.css.map */

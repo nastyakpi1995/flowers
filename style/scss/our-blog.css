@@ -1,0 +1,55 @@
+.our {
+  margin-top: 110px;
+  background: #FAFAFA;
+  padding-bottom: 110px;
+}
+.our .our_blog {
+  padding-top: 110px;
+}
+.our .our_blog .flowers__blog {
+  margin-bottom: 80px;
+}
+.our .our_blog .flowers__blog h3:after {
+  width: 181.5px !important;
+}
+.our .our_blog .our_blog__img {
+  display: flex;
+  justify-content: flex-end;
+}
+.our .our_blog .our_blog__row {
+  display: flex;
+  justify-content: space-between;
+}
+.our .our_blog .our_blog__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 69%;
+}
+.our .our_blog .our_blog__div .our_blog__container {
+  max-width: 525px;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__text {
+  margin-top: 30px;
+  color: #999999;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link {
+  margin-top: 60px;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link a {
+  text-decoration: none;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link a h6 {
+  text-transform: uppercase;
+  color: #A91D20;
+  border-bottom: 1px solid #A91D20;
+  width: fit-content;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__title {
+  margin-bottom: 40px;
+}
+.our .our_blog .our_blog__div .our_blog__container .our_blog__title h4 {
+  color: #234612;
+}
+
+/*# sourceMappingURL=our-blog.css.map */

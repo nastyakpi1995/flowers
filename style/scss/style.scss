@@ -5,54 +5,115 @@ body {
     padding: 0;
 }
 
-.h1 {
+h1 {
+    font-family: History Pro;
+    font-style: normal;
+    font-weight: normal;
     font-size: 64px;
     line-height: 102px;
     letter-spacing: 0.1em;
+    margin: 0;
+
     color: $white;
     text-transform: uppercase;
 }
 
-.h3 {
+h3 {
+    font-family: History Pro;
+    font-style: normal;
+    font-weight: normal;
     font-size: 38px;
     line-height: 61px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin: 0;
 }
 
-.h5 {
+h4 {
+    font-family: History Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h5 {
+    font-family: History Pro;
+    font-style: normal;
+    font-weight: normal;
     font-size: 21px;
-    line-height: 160%;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    margin: 0;
 }
 
 .text-1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
+    margin: 0;
 }
 
 .text-2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 29px;
+    margin: 0;
 }
+
 .text-3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
     font-size: 20px;
     line-height: 32px;
+    margin: 0;
 }
 
 .text-4 {
-    font-weight: 300;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;;
     font-size: 23px;
     line-height: 37px;
+    margin: 0;
 }
+
+h6 {
+    font-family: History Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
 .text-big {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
     font-size: 26px;
     line-height: 42px;
+    margin: 0;
 }
 
 .text_green {
     color: #1A9940 !important;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
 
 @media (min-width: 1605px) {
     .container-fluid {
