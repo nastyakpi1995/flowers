@@ -1,0 +1,46 @@
+@import './colors';
+@import './dimentions';
+
+.footer {
+  background: $dark;
+  margin-top: $top-default;
+
+  .footer__div {
+    padding: 0;
+
+    .footer__row {
+      height: 652px;
+      padding-top: 128px;
+
+      .footer__title {
+        h5 {
+          color: $white;
+          text-transform: uppercase;
+        }
+      }
+
+      .footer__block {
+        max-width: 188px;
+        max-height: 328px;
+
+        .footer__text {
+
+          ul {
+            margin-top: 30px;
+            padding: 0;
+
+
+            li {
+              list-style: none;
+              margin-top: 15px;
+
+              a {
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

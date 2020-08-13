@@ -1,0 +1,32 @@
+.footer {
+  background: #151212;
+  margin-top: 110px;
+}
+.footer .footer__div {
+  padding: 0;
+}
+.footer .footer__div .footer__row {
+  height: 652px;
+  padding-top: 128px;
+}
+.footer .footer__div .footer__row .footer__title h5 {
+  color: white;
+  text-transform: uppercase;
+}
+.footer .footer__div .footer__row .footer__block {
+  max-width: 188px;
+  max-height: 328px;
+}
+.footer .footer__div .footer__row .footer__block .footer__text ul {
+  margin-top: 30px;
+  padding: 0;
+}
+.footer .footer__div .footer__row .footer__block .footer__text ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+.footer .footer__div .footer__row .footer__block .footer__text ul li a {
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */

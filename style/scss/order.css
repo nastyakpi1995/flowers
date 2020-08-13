@@ -1,0 +1,26 @@
+.order {
+  margin-top: 110px;
+  padding: 0;
+}
+.order .order__row {
+  display: flex;
+  justify-content: space-between;
+}
+.order .order__row .order__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  max-width: 795px;
+}
+.order .order__row .order__div .order__title {
+  margin-bottom: 60px;
+}
+.order .order__row .order__div .order__inform {
+  margin: 40px 0 60px 0;
+}
+.order .order__row .order__div .order__inform p {
+  color: #999999;
+}
+
+/*# sourceMappingURL=order.css.map */

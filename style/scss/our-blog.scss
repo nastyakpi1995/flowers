@@ -1,0 +1,85 @@
+@import './colors';
+@import './dimentions';
+
+
+.our {
+  margin-top: $top-default;
+  background: $bgWhite;
+  padding-bottom: $top-default;
+
+  .our_blog {
+    padding: $top-default 0 0 0;
+
+    .flowers__blog {
+      margin-bottom: 80px;
+
+      h3:after {
+        width: 181.5px !important;
+      }
+    }
+
+    .our_blog__img {
+      display: flex;
+      justify-content: flex-end;
+
+      .our_blog__img-block {
+        position: relative;
+
+          h4 {
+            position: absolute;
+            bottom: 225px;
+            left: -154px;
+            transform: rotate(-90deg);
+            width: 416px;
+            letter-spacing: 0.1em;
+            color: $white;
+          }
+      }
+    }
+
+    .our_blog__row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .our_blog__div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-right: 150px;
+
+      .our_blog__container {
+        max-width: 525px;
+
+        .our_blog__text {
+          margin-top: 30px;
+          color: $grey4;
+        }
+
+        .our_blog__link {
+          margin-top: 60px;
+
+          a {
+            text-decoration: none;
+            h6 {
+              text-transform: uppercase;
+              color: $secondary-color;
+              border-bottom: 1px solid $secondary-color;
+              width: fit-content;
+            }
+          }
+        }
+
+        .our_blog__title {
+          margin-bottom: 40px;
+
+          h4 {
+            color: #234612;
+          }
+        }
+      }
+    }
+  }
+}
+

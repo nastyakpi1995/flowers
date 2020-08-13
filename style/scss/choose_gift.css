@@ -1,0 +1,33 @@
+.gift {
+  margin-top: 110px;
+}
+.gift .gift__right {
+  padding: 110px 135px;
+  background-image: url("../../img/bg/Rectangle 30.png");
+}
+.gift .gift__right .gift__div .gift__title {
+  margin-bottom: 60px;
+}
+.gift .gift__right .gift__div .gift__title h3 {
+  color: #234612;
+}
+.gift .gift__right .gift__div .gift__text {
+  margin: 40px 0 60px 0;
+}
+.gift .gift__right .gift__div .gift__text p {
+  color: #151212;
+}
+.gift .gift__img {
+  padding: 0;
+}
+.gift .gift__img img {
+  overflow: hidden;
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+/*# sourceMappingURL=choose_gift.css.map */
