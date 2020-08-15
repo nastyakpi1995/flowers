@@ -43,7 +43,9 @@
     }
 
     .our_blog__div {
-      padding-top: $top-default;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       width: 100%;
       padding-right: 150px;
 
