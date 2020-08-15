@@ -1,60 +1,46 @@
-.contact {
-  margin-top: 110px;
-  padding: 0;
-}
-.contact .contact__title {
-  margin-bottom: 80px;
-}
-.contact .contact__title h3:after {
-  width: 188.25px !important;
-  left: 17px !important;
-}
-.contact img {
-  overflow: hidden;
-  box-sizing: border-box;
-  object-fit: cover;
-  width: 100%;
-  position: relative;
-  display: block;
-  height: 100%;
-}
-.contact .contact__row {
-  margin-bottom: 80px;
-}
-.contact .contact__row .contact__div {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 0;
-}
-.contact .contact__row .contact__div .contact__content div:first-child {
-  margin-bottom: 10px;
-}
-.contact .contact__row .contact__div .contact__bold {
-  font-weight: bold;
-  color: #444444;
-}
-.contact .contact__row .contact__div .contact__bold a {
-  font-weight: bold;
-  color: #444444;
-}
-.contact .contact__row .contact__div .contact__text {
-  color: #444444;
-}
-.contact .contact__row .contact__work div {
-  font-family: History Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 102px;
-  letter-spacing: 0.1em;
-  color: #234612;
-}
-.contact .contact__row .contact__work p {
-  color: #151212;
-}
-.contact .contact__img {
-  padding: 0;
-}
+/*
+Error: Invalid CSS after "  padding: 0": expected "{", was ";"
+        on line 7 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\contacts.scss
 
-/*# sourceMappingURL=contacts.css.map */
+2: @import './dimentions';
+3: 
+4: .contact {
+5:   margin-top: $top-default;
+6: <<<<<<< HEAD
+7:   padding: 0;
+8: =======
+9: >>>>>>> origin/gh-pages
+10: 
+11:   .contact__title {
+12:     margin-bottom: 80px;
+
+Backtrace:
+C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\contacts.scss:7
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  padding: 0\": expected \"{\", was \";\"\A         on line 7 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\contacts.scss\A \A 2: @import './dimentions';\A 3: \A 4: .contact {\A 5:   margin-top: $top-default;\A 6: <<<<<<< HEAD\A 7:   padding: 0;\A 8: =======\A 9: >>>>>>> origin/gh-pages\A 10: \A 11:   .contact__title {\A 12:     margin-bottom: 80px;"; }
