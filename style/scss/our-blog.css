@@ -33,9 +33,7 @@
   justify-content: space-between;
 }
 .our .our_blog .our_blog__div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-top: 110px;
   width: 100%;
   padding-right: 150px;
 }
