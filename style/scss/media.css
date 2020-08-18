@@ -17,6 +17,10 @@
     padding: 0;
   }
 
+  .gift__right {
+    padding: 110px 45px !important;
+  }
+
   .our_blog__container {
     padding: 0 20px !important;
   }
@@ -24,13 +28,19 @@
   .photo_blocks__div {
     height: fit-content !important;
     flex-flow: wrap !important;
+    justify-content: space-between;
   }
   .photo_blocks__div .photo_blocks__img {
-    width: 32% !important;
+    width: 32.6% !important;
     margin-top: 15px;
+    margin-right: 0 !important;
   }
   .photo_blocks__div .our_blog__div {
     margin-bottom: 15px;
+  }
+
+  .contact__work {
+    padding-left: 15px;
   }
 
   .order__div {

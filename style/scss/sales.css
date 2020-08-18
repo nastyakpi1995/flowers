@@ -44,6 +44,9 @@
   padding: 0;
 }
 
+.sales__div {
+  display: flex;
+}
 .sales__div .sales_card:last-child {
   padding: 0;
 }

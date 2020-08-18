@@ -59,6 +59,8 @@
 }
 
 .sales__div {
+    display: flex;
+
     .sales_card:last-child {
         padding: 0;
     }
