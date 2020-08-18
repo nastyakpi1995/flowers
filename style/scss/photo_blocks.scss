@@ -25,15 +25,16 @@
     }
     .last_block {
       margin-top: 15px !important;
-    }
 
-    .photo_blocks__img:nth-child(2n+1) {
-      order: 2;
-    }
-
-    .photo_blocks__img:nth-child(2n + 2)   {
-      order: 3;
-      margin: 0;
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        display: block;
+        height: 100%;
+      }
     }
 
     .photo_blocks__img {
@@ -62,10 +63,5 @@
 
   h3 {
     margin-bottom: $top-default;
-
-    &:after {
-      width: 405px;
-    }
   }
-
 }

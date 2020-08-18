@@ -1,8 +1,11 @@
 .gift {
   margin-top: 110px;
+  display: flex;
+  padding: 0;
 }
 .gift .gift__right {
   padding: 110px 135px;
+  width: 70%;
   background-image: url("../../img/bg/Rectangle 30.png");
 }
 .gift .gift__right .gift__div .gift__title {

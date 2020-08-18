@@ -5,9 +5,6 @@
   justify-content: center;
   align-items: center;
 }
-.catalog .catalog_block {
-  max-width: 727px;
-}
 .catalog .catalog_block .catalog_block__title {
   text-align: center;
 }

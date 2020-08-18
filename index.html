@@ -6,10 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./style/scss/style.scss"> -->
 
-    <link rel="stylesheet" href="./style/scss/header.css">
     <link rel="stylesheet" href="./style/scss/header.css">
     <link rel="stylesheet" href="./style/scss/catalog_block.css">
     <link rel="stylesheet" href="./style/scss/order.css">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./style/scss/sales.css">
     <link rel="stylesheet" href="./style/scss/mono_bouquets.css">
     <link rel="stylesheet" href="./style/scss/photo_blocks.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/scss/media.css">
 </head>
 <body>
 
@@ -65,11 +65,11 @@
 </header>
 
 <main role="main">
-    <div class="container-lg">
+    <div class="container-lg catalog__mob">
       <div class="row catalog">
         <div class="catalog_block">
           <div class="catalog_block__title">
-            <h1>квіти роблять ВАС щасливими</h1>
+            <h1>квіти роблять <br>ВАС щасливими</h1>
           </div>
           
           <div class="catalog_block__text">
@@ -295,9 +295,8 @@
         </div>
     </div>
 
-    <div class="container gift">
-        <div class="row">
-            <div class="col-sm-7 gift__right">
+    <div class="container gift gift__row">
+            <div class="gift__right">
                 <div class="gift__div">
                     <div class="gift__title">
                         <h3>Подарунки<br>які піднімають настрій</h3>
@@ -312,15 +311,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5 gift__img">
-                <img src="./img/Rectangle%2020.png" alt="">
-            </div>
+        <div class="gift__img">
+            <img src="./img/Rectangle%2020.png" alt="">
         </div>
     </div>
 
     <div class="container">
         <div class="row sales">
-            <div class="block__title flowers__bouquet">
+            <div class="block__title">
                 <h3>Букети</h3>
             </div>
         </div>
@@ -414,7 +412,7 @@
 
     <div class="container">
         <div class="row sales flowers_div">
-            <div class="block__title flowers__title">
+            <div class="block__title">
                 <h3>Квіти поштучно</h3>
             </div>
         </div>
@@ -508,7 +506,7 @@
 
     <div class="container">
         <div class="row sales flowers__gift_div">
-            <div class="block__title flowers__gift">
+            <div class="block__title">
                 <h3>Подарунки</h3>
             </div>
         </div>
@@ -609,7 +607,7 @@
     <div class="container-lg our">
 
         <div class="container our_blog">
-            <div class="block__title flowers__blog">
+            <div class="block__title">
                 <h3>Наш блог</h3>
             </div>
 
@@ -659,17 +657,16 @@
 
 
     <div class="container contact">
-        <div class="block__title contact__title">
+        <div class="block__title">
             <h3>Контакти</h3>
         </div>
-        <div class="row contact__row">
-            <div class="col-sm-3">
-                <div class="contact__work">
-                    <div>24/7</div>
-                    <p class="text-2">Прийом заявок на сайті<br>робота служби доставки</p>
-                </div>
+        <div class="contact__row">
+            <div class="contact__work">
+                <div>24/7</div>
+                <p class="text-2">Прийом заявок на сайті<br>робота служби доставки</p>
             </div>
-            <div class="col-sm-3 contact__div">
+
+            <div class="contact__div">
                 <div class="text-2 contact__bold">вул. Олекси Новака 62А</div>
 
                 <div class="contact__content">
@@ -682,7 +679,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-3 contact__div">
+            <div class=" contact__div">
                 <div class="text-2 contact__bold">вул. Олекси Новака 62А</div>
 
                 <div class="contact__content">
@@ -695,7 +692,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-3 contact__div">
+            <div class="contact__div">
                 <div class="text-2 contact__bold">вул. Олекси Новака 62А</div>
 
                 <div class="contact__content">
@@ -709,7 +706,38 @@
             </div>
         </div>
         <div class="contact__img">
-            <img src="./img/map.png" alt="">
+            <div class="contact__img_block first_place">
+                <div class="contact__img_pin">
+                    <img src="./img/contact/pin.svg" alt="">
+
+                    <div class="contact__img_logo">
+                        <img src="./img/contact/logo.svg" alt="">
+                    </div>
+                    <div class="contact__shadow"></div>
+                </div>
+            </div>
+
+            <div class="contact__img_block second_place">
+                <div class="contact__img_pin">
+                    <img src="./img/contact/pin.svg" alt="">
+
+                    <div class="contact__img_logo">
+                        <img src="./img/contact/logo.svg" alt="">
+                    </div>
+                    <div class="contact__shadow"></div>
+                </div>
+            </div>
+
+            <div class="contact__img_block third_place" >
+                <div class="contact__img_pin">
+                    <img src="./img/contact/pin.svg" alt="">
+
+                    <div class="contact__img_logo">
+                        <img src="./img/contact/logo.svg" alt="">
+                    </div>
+                    <div class="contact__shadow"></div>
+                </div>
+            </div>
         </div>
     </div>
 </main>

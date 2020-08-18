@@ -3,9 +3,12 @@
 
 .gift {
   margin-top: $top-default;
+  display: flex;
+  padding: 0;
 
-    .gift__right {
+  .gift__right {
       padding: $top-default 135px;
+      width: 70%;
 
       background-image: url("../../img/bg/Rectangle 30.png");
 
@@ -28,7 +31,7 @@
       }
     }
 
-    .gift__img {
+  .gift__img {
       padding: 0;
 
       img {

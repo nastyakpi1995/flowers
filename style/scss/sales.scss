@@ -7,10 +7,13 @@
     justify-content: center;
     padding-bottom: 80px;
 
+
     h3 {
         border-bottom: 2px solid $primary-color;
         color: $primary-color;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     h3:after {
@@ -18,8 +21,7 @@
         position: absolute;
         bottom: -10px;
         height: 1px;
-        left: 27px;
-        width: 253px;
+        width: 88%;
         background: $primary-color;
     }
 }

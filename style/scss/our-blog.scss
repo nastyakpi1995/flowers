@@ -1,7 +1,6 @@
 @import './colors';
 @import './dimentions';
 
-
 .our {
   margin-top: $top-default;
   background: $bgWhite;
@@ -10,15 +9,10 @@
   .our_blog {
     padding: $top-default 0 0 0;
 
-    .flowers__blog {
-      h3:after {
-        width: 181.5px !important;
-      }
-    }
-
     .our_blog__img {
       display: flex;
       justify-content: flex-end;
+
       img {
         overflow: hidden;
         box-sizing: border-box;
@@ -31,14 +25,15 @@
 
       .our_blog__img-block {
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
 
           h4 {
             position: absolute;
-            bottom: 225px;
-            left: -154px;
-            transform: rotate(-90deg);
-            width: 416px;
-            letter-spacing: 0.1em;
+            writing-mode: vertical-lr;
+            transform: rotateZ(180deg);
+            bottom: 43px;
             color: $white;
           }
       }

@@ -2,11 +2,6 @@
   padding-top: 80px !important;
 }
 
-.flowers__title h3:after {
-  width: 320px !important;
-  left: 39px !important;
-}
-
 .flowers__gift_div {
   padding-top: 80px !important;
 }
@@ -14,15 +9,6 @@
 .flowers_block {
   margin-bottom: 80px;
   margin-top: 110px !important;
-}
-
-.flowers__bouquet h3:after {
-  width: 130px !important;
-  left: 17px !important;
-}
-
-.flowers__gift h3:after {
-  width: 220px !important;
 }
 
 /*# sourceMappingURL=flowers-one_by_one.css.map */

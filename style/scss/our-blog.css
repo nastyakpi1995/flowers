@@ -6,9 +6,6 @@
 .our .our_blog {
   padding: 110px 0 0 0;
 }
-.our .our_blog .flowers__blog h3:after {
-  width: 181.5px !important;
-}
 .our .our_blog .our_blog__img {
   display: flex;
   justify-content: flex-end;
@@ -24,14 +21,15 @@
 }
 .our .our_blog .our_blog__img .our_blog__img-block {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .our .our_blog .our_blog__img .our_blog__img-block h4 {
   position: absolute;
-  bottom: 225px;
-  left: -154px;
-  transform: rotate(-90deg);
-  width: 416px;
-  letter-spacing: 0.1em;
+  writing-mode: vertical-lr;
+  transform: rotateZ(180deg);
+  bottom: 43px;
   color: white;
 }
 .our .our_blog .our_blog__row {
