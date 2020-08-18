@@ -1,3 +1,13 @@
+@media only screen and (max-device-width: 1185px) {
+  .sales_card {
+    padding: 0 15px 0 0 !important;
+    width: 50% !important;
+  }
+
+  .photo_blocks__img {
+    margin-right: 10px !important;
+  }
+}
 @media only screen and (max-device-width: 1600px) {
   .container, .container-lg {
     max-width: 1400px !important;
@@ -7,11 +17,8 @@
     padding: 0;
   }
 
-  .our_blog__row {
-    flex-direction: column;
-  }
-  .our_blog__row .our_blog__img {
-    margin-top: 15px;
+  .our_blog__container {
+    padding: 0 20px !important;
   }
 
   .photo_blocks__div {
