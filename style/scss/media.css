@@ -1,74 +1,42 @@
-@media only screen and (max-device-width: 800px) {
-  .header {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-left: 1px;
-    padding-right: 10px;
-    height: fit-content;
-  }
-  .header nav {
-    margin-bottom: 10px;
+@media only screen and (max-device-width: 1600px) {
+  .container, .container-lg {
+    max-width: 1400px !important;
   }
 
-  .catalog__mob {
+  .our {
     padding: 0;
-    width: fit-content;
-  }
-  .catalog__mob .catalog {
-    height: max-content;
-    padding-bottom: 20px;
-  }
-
-  .sales__div {
-    padding: 0;
-  }
-  .sales__div .sales_card {
-    margin: 15px auto;
-  }
-
-  .photo_blocks__div {
-    height: fit-content !important;
-  }
-  .photo_blocks__div .photo_blocks__img {
-    padding-top: 20px;
-  }
-
-  .order__row {
-    flex-direction: column;
-  }
-
-  .gift__row {
-    flex-direction: column;
-  }
-  .gift__row .gift__right {
-    padding: 110px 0px;
-    width: 100%;
   }
 
   .our_blog__row {
     flex-direction: column;
   }
-  .our_blog__row .our_blog__container {
-    padding: 110px 0px !important;
-  }
   .our_blog__row .our_blog__img {
-    width: fit-content;
-    margin: 0 auto;
-  }
-  .our_blog__row .our_blog__div {
-    flex-direction: column;
+    margin-top: 15px;
   }
 
-  .contact__row {
-    flex-direction: column;
-    padding: 0 0 0 20px;
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
   }
-  .contact__row .contact__work {
-    margin: 0 auto;
+  .photo_blocks__div .photo_blocks__img {
+    width: 32% !important;
+    margin-top: 15px;
   }
-  .contact__row .contact__div {
-    padding: 0 !important;
-    margin: 15px auto;
+  .photo_blocks__div .our_blog__div {
+    margin-bottom: 15px;
+  }
+
+  .order__div {
+    margin-left: 15px;
+  }
+
+  .sales_card {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+
+  .sales_card__text {
+    flex-wrap: wrap;
   }
 }
 
