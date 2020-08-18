@@ -5,6 +5,17 @@ body {
     padding: 0;
 }
 
+@media (min-width: 1605px) {
+    .container {
+        max-width: 1605px;
+    }
+
+    .container-lg {
+        max-width: 1860px;
+    }
+}
+
+
 h1 {
     font-family: History Pro;
     font-style: normal;
@@ -115,15 +126,6 @@ a:hover {
 }
 
 
-@media (min-width: 1605px) {
-    .container-fluid {
-        width: 1605px;
-    }
-
-    .container {
-        max-width: 1860px;
-    }
-}
 
 
 

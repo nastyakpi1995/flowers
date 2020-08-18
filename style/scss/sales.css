@@ -1,11 +1,7 @@
-.margin-default {
-  margin-top: 110px;
-}
-
 .block__title {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .block__title h3 {
   border-bottom: 2px solid #234612;
@@ -22,6 +18,10 @@
   background: #234612;
 }
 
+.sales {
+  padding-top: 110px;
+  flex-direction: column;
+}
 .sales nav {
   display: flex;
   justify-content: center;

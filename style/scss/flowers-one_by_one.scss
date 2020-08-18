@@ -2,8 +2,7 @@
 @import './dimentions';
 
 .flowers_div {
-  margin-bottom: 80px !important;
-  margin-top: 80px !important;
+  padding-top: 80px !important;
 }
 
 .flowers__title {
@@ -11,6 +10,9 @@
     width: 320px !important;
     left: 39px !important;
   }
+}
+.flowers__gift_div {
+  padding-top: 80px !important;
 }
 
 .flowers_block {
@@ -25,8 +27,6 @@
   }
 
   .flowers__gift {
-    margin-top: 80px !important;
-
     h3:after {
       width: 220px !important;
     }

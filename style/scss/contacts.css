@@ -2,9 +2,6 @@
   margin-top: 110px;
   padding: 0;
 }
-.contact .contact__title {
-  margin-bottom: 80px;
-}
 .contact .contact__title h3:after {
   width: 188.25px !important;
   left: 17px !important;
@@ -56,3 +53,5 @@
 .contact .contact__img {
   padding: 0;
 }
+
+/*# sourceMappingURL=contacts.css.map */

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,WAAY;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,IAAI",
+"mappings": "AAGA,WAAY;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,IAAI",
 "sources": ["go_catalog.scss"],
 "names": [],
 "file": "go_catalog.css"

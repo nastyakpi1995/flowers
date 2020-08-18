@@ -7,8 +7,7 @@
   padding-bottom: $top-default;
 
   .photo_blocks__title {
-    padding-top: $top-default;
-    margin: 0 !important;
+    padding: $top-default 0 0 0;
 
     h3 {
       margin-bottom: 122px;
@@ -16,12 +15,31 @@
   }
 
   .photo_blocks__div {
-    padding: 0;
-    margin-right: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 800px;
+    width: 100%;
+
+    .photo_blocks__img:nth-child(2n) {
+      order: 1;
+    }
+    .last_block {
+      margin-top: 15px !important;
+    }
+
+    .photo_blocks__img:nth-child(2n+1) {
+      order: 2;
+    }
+
+    .photo_blocks__img:nth-child(2n + 2)   {
+      order: 3;
+      margin: 0;
+    }
 
     .photo_blocks__img {
       position: relative;
-      margin-bottom: 15px;
+      width: fit-content;
+      margin-right: 15px;
 
       .photo_blocks__first {
         overflow: hidden;
@@ -40,12 +58,6 @@
         color: #FFFFFF;
       }
     }
-    .photo_blocks__img:last-child {
-      margin: 0;
-    }
-  }
-  .photo_blocks__div:last-child {
-    margin: 0;
   }
 
   h3 {

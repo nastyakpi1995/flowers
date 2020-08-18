@@ -2,14 +2,10 @@
 @import './dimentions';
 
 
-.margin-default {
-    margin-top: $top-default;
-}
-
 .block__title {
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 
     h3 {
         border-bottom: 2px solid $primary-color;
@@ -30,6 +26,9 @@
 
 
 .sales {
+    padding-top: $top-default;
+    flex-direction: column;
+
     nav {
         display: flex;
         justify-content: center;

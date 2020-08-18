@@ -6,15 +6,21 @@
 .our .our_blog {
   padding: 110px 0 0 0;
 }
-.our .our_blog .flowers__blog {
-  margin-bottom: 80px;
-}
 .our .our_blog .flowers__blog h3:after {
   width: 181.5px !important;
 }
 .our .our_blog .our_blog__img {
   display: flex;
   justify-content: flex-end;
+}
+.our .our_blog .our_blog__img img {
+  overflow: hidden;
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
 }
 .our .our_blog .our_blog__img .our_blog__img-block {
   position: relative;
@@ -34,13 +40,10 @@
 }
 .our .our_blog .our_blog__div {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding-right: 150px;
+  flex: 1;
 }
 .our .our_blog .our_blog__div .our_blog__container {
-  max-width: 525px;
+  padding: 110px 150px 110px 150px;
 }
 .our .our_blog .our_blog__div .our_blog__container .our_blog__text {
   margin-top: 30px;
