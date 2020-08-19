@@ -1,21 +1,93 @@
 
-//@media (max-width: 999px) and (min-width: 800px) {
-//  .container, .container-lg {
-//    max-width: 1174px !important;
-//  }
-//
-//  .photo_blocks__div {
-//    height: fit-content !important;
-//    flex-flow: wrap !important;
-//    justify-content: space-between;
-//
-//    .photo_blocks__img {
-//      width: 49% !important;
-//      margin-top: 15px;
-//      margin-right: 0 !important;
-//    }
-//  }
-//}
+
+@media (max-width: 949px) and (min-width: 850px) {
+  .container, .container-lg {
+    max-width: 845px !important;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    div {
+      padding: 0 0 10px 0 !important;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+
+    .photo_blocks__img {
+      width: 49% !important;
+      margin-top: 15px;
+      margin-right: 0 !important;
+    }
+  }
+
+  .order__div {
+    margin-left: 50px;
+  }
+
+  .order__img {
+    width: 40%;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+
+    .our_blog__div {
+
+
+      .our_blog__container {
+        padding: 0 40px !important;
+      }
+    }
+  }
+
+  .gift__right {
+    padding: 0 0 10px 30px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+
+    .our_blog__img-block {
+      height: 77px;
+      box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+
+      h4 {
+        writing-mode: lr !important;
+        transform: inherit !important;
+        bottom: 1px !important;
+        left: 40px;
+      }
+    }
+
+  }
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .sales_card__text {
+      flex-wrap: wrap;
+    }
+
+    .sales_card {
+      padding: 0 0 15px 0;
+      width: 49.2% !important;
+    }
+  }
+}
+
 
 @media (max-width: 1199px) and (min-width: 950px) {
   .container, .container-lg {
