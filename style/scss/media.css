@@ -1,6 +1,23 @@
-@media (max-width: 1399px) and (min-width: 1249px) {
+@media (max-width: 1399px) and (min-width: 1200px) {
   .container, .container-lg {
-    max-width: 1219px !important;
+    max-width: 1180px !important;
+  }
+
+  .order__img {
+    width: 30%;
+  }
+  .order__img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  .contact__img_block {
+    display: none;
   }
 
   .sales__div {
@@ -19,6 +36,10 @@
     margin-right: 10px !important;
   }
 
+  .our_blog__container {
+    padding: 50px 40px !important;
+  }
+
   .photo_blocks__div {
     height: fit-content !important;
     flex-flow: wrap !important;
@@ -29,8 +50,23 @@
     margin-top: 15px;
     margin-right: 0 !important;
   }
-  .photo_blocks__div .our_blog__div {
-    margin-bottom: 15px;
+
+  .our_blog__img {
+    background: black;
+    width: 15% !important;
+  }
+
+  .our_blog__div .our_blog__mob-img {
+    width: 738px;
+  }
+  .our_blog__div .our_blog__mob-img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
   }
 
   .order__div {
@@ -67,9 +103,6 @@
     width: 32.6% !important;
     margin-top: 15px;
     margin-right: 0 !important;
-  }
-  .photo_blocks__div .our_blog__div {
-    margin-bottom: 15px;
   }
 
   .contact__work {
