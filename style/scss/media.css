@@ -1,6 +1,22 @@
-@media (max-width: 1199px) and (min-width: 1000px) {
+@media (max-width: 1199px) and (min-width: 950px) {
   .container, .container-lg {
-    max-width: 1174px !important;
+    max-width: 918px !important;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 10px 0 !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .photo_blocks__div {
