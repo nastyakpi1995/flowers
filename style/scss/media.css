@@ -1,6 +1,67 @@
+@media (max-width: 1199px) and (min-width: 1000px) {
+  .container, .container-lg {
+    max-width: 1174px !important;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 49% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .order__div {
+    margin-left: 50px;
+  }
+
+  .order__img {
+    width: 40%;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .gift__right {
+    padding: 0 0 10px 30px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: 1px !important;
+    left: 40px;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 49.2% !important;
+  }
+}
 @media (max-width: 1399px) and (min-width: 1200px) {
   .container, .container-lg {
-    max-width: 1180px !important;
+    max-width: 1174px !important;
   }
 
   .order__img {
@@ -32,6 +93,10 @@
     width: 32.9% !important;
   }
 
+  .gift__right {
+    padding: 30px !important;
+  }
+
   .photo_blocks__img {
     margin-right: 10px !important;
   }
@@ -58,15 +123,6 @@
 
   .our_blog__div .our_blog__mob-img {
     width: 738px;
-  }
-  .our_blog__div .our_blog__mob-img img {
-    overflow: hidden;
-    box-sizing: border-box;
-    object-fit: cover;
-    width: 100%;
-    position: relative;
-    display: block;
-    height: 100%;
   }
 
   .order__div {
