@@ -2,14 +2,15 @@
 @import './dimentions';
 
 .flowers_div {
-  padding-top: 80px !important;
+  .block__title {
+    padding-top: 80px !important;
+  }
 }
 
 .flowers__gift_div {
-  padding-top: 80px !important;
+
+  .block__title {
+    padding-top: 80px !important;
+  }
 }
 
-.flowers_block {
-  margin-bottom: 80px;
-  margin-top: $top-default !important;
-}
