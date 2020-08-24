@@ -1,12 +1,14 @@
 .mono_bouquets {
   padding: 110px 0 0 0;
   display: flex;
+  order: 1;
 }
 .mono_bouquets .mono_bouquets__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
+  width: 60%;
 }
 .mono_bouquets .mono_bouquets__div .mono_bouquets__title {
   margin-bottom: 60px;
@@ -23,6 +25,7 @@
 .mono_bouquets .mono_bouquets__img {
   display: flex;
   justify-content: flex-end;
+  width: 40%;
 }
 .mono_bouquets .mono_bouquets__img img {
   overflow: hidden;
