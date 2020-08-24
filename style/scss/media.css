@@ -1,56 +1,806 @@
-/*
-Error: Invalid CSS after "      height: 35px": expected "{", was ";"
-        on line 14 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\media.scss
+@media (max-width: 449px) {
+  .header {
+    height: inherit;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .header .header__card {
+    display: flex;
+    align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
 
-9:       display: flex;
-10:       align-items: center;
-11:     }
-12:     .logo {
-13: <<<<<<< HEAD
-14:       height: 35px;
-15: =======
-16:       height: 30px;
-17: >>>>>>> origin/gh-pages
-18: 
-19:       img {
+  .catalog_block__title h1 {
+    font-size: 20px;
+  }
 
-Backtrace:
-C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\media.scss:14
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"      height: 35px\": expected \"{\", was \";\"\A         on line 14 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\media.scss\A \A 9:       display: flex;\A 10:       align-items: center;\A 11:     }\A 12:     .logo {\A 13: <<<<<<< HEAD\A 14:       height: 35px;\A 15: =======\A 16:       height: 30px;\A 17: >>>>>>> origin/gh-pages\A 18: \A 19:       img {"; }
+  .order__row {
+    flex-direction: column;
+  }
+  .order__row .order__img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .block__title h3 {
+    text-align: center;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 15px 0 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .gift {
+    flex-direction: column-reverse;
+  }
+  .gift .gift__right {
+    width: 100% !important;
+    padding: 15px 0 0 25px !important;
+  }
+  .gift .gift__text {
+    margin: 20px 0 30px 0 !important;
+  }
+  .gift .button__link {
+    margin-bottom: 10px;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__mob-img {
+    padding-bottom: 20px;
+    height: 150px;
+    min-width: 100%;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .mono_bouquets {
+    flex-direction: column-reverse;
+  }
+  .mono_bouquets .mono_bouquets__img {
+    width: 100% !important;
+    padding-bottom: 15px;
+  }
+  .mono_bouquets .mono_bouquets__div {
+    width: 100% !important;
+  }
+
+  .sales ul {
+    flex-wrap: wrap;
+  }
+  .sales ul li {
+    padding-right: 0 !important;
+    width: 50%;
+    text-align: center;
+  }
+
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 100% !important;
+  }
+}
+@media (max-width: 539px) and (min-width: 450px) {
+  .header {
+    height: inherit;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .header .header__card {
+    display: flex;
+    align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  .order__row {
+    flex-direction: column;
+  }
+  .order__row .order__img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 15px 0 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .gift {
+    flex-direction: column-reverse;
+  }
+  .gift .gift__right {
+    width: 100% !important;
+    padding: 15px 0 0 25px !important;
+  }
+  .gift .gift__text {
+    margin: 20px 0 30px 0 !important;
+  }
+  .gift .button__link {
+    margin-bottom: 10px;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__mob-img {
+    padding-bottom: 20px;
+    height: 400px;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .mono_bouquets {
+    flex-direction: column-reverse;
+  }
+  .mono_bouquets .mono_bouquets__img {
+    width: 100% !important;
+    padding-bottom: 15px;
+  }
+  .mono_bouquets .mono_bouquets__div {
+    width: 100% !important;
+  }
+
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .sales ul {
+    flex-wrap: wrap;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 100% !important;
+  }
+}
+@media (max-width: 699px) and (min-width: 540px) {
+  .header {
+    height: inherit;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .header .header__card {
+    display: flex;
+    align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  .order__row {
+    flex-direction: column;
+  }
+  .order__row .order__img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 15px 0 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .mono_bouquets {
+    flex-direction: column-reverse;
+  }
+  .mono_bouquets .mono_bouquets__img {
+    width: 100% !important;
+    padding-bottom: 15px;
+  }
+  .mono_bouquets .mono_bouquets__div {
+    width: 100% !important;
+  }
+
+  .gift {
+    flex-direction: column-reverse;
+  }
+  .gift .gift__right {
+    width: 100% !important;
+    padding: 15px 0 0 25px !important;
+  }
+  .gift .gift__text {
+    margin: 20px 0 30px 0 !important;
+  }
+  .gift .button__link {
+    margin-bottom: 10px;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__mob-img {
+    padding-bottom: 20px;
+    height: 400px;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .sales ul {
+    flex-wrap: wrap;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 100% !important;
+  }
+}
+@media (max-width: 849px) and (min-width: 700px) {
+  .container {
+    max-width: 677px !important;
+  }
+
+  .order__row {
+    flex-direction: column;
+  }
+  .order__row .order__img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 10px 0 !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 49% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .order__div {
+    margin-left: 50px;
+  }
+
+  .gift {
+    flex-direction: column-reverse;
+  }
+  .gift .gift__right {
+    width: 100% !important;
+    padding-top: 15px !important;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__mob-img {
+    padding-bottom: 20px;
+    height: 400px;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 49.2% !important;
+  }
+}
+@media (max-width: 949px) and (min-width: 850px) {
+  .container {
+    max-width: 845px !important;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 10px 0 !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 49% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .order__div {
+    margin-left: 50px;
+  }
+
+  .order__img {
+    width: 40%;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .gift__right {
+    padding: 0 0 10px 30px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 49.2% !important;
+  }
+}
+@media (max-width: 1199px) and (min-width: 950px) {
+  .container {
+    max-width: 918px !important;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .contact__row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .contact__row div {
+    padding: 0 0 10px 0 !important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 49% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .order__div {
+    margin-left: 50px;
+  }
+
+  .order__img {
+    width: 40%;
+  }
+
+  .our_blog__row {
+    flex-direction: column;
+  }
+  .our_blog__row .our_blog__div .our_blog__container {
+    padding: 0 40px !important;
+  }
+
+  .gift__right {
+    padding: 0 0 10px 30px !important;
+  }
+
+  .our_blog__img {
+    flex-direction: column;
+  }
+  .our_blog__img .our_blog__img-block {
+    height: 77px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    align-items: center !important;
+  }
+  .our_blog__img .our_blog__img-block h4 {
+    writing-mode: lr !important;
+    transform: inherit !important;
+    bottom: inherit !important;
+    left: 40px;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 49.2% !important;
+  }
+}
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .container {
+    max-width: 1174px !important;
+  }
+
+  .order__img {
+    width: 30%;
+  }
+  .order__img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  .contact__img_block {
+    display: none;
+  }
+
+  .sales__div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sales__div .sales_card__text {
+    flex-wrap: wrap;
+  }
+  .sales__div .sales_card {
+    padding: 0 0 15px 0;
+    width: 32.9% !important;
+  }
+
+  .gift__right {
+    padding: 30px !important;
+  }
+
+  .photo_blocks__img {
+    margin-right: 10px !important;
+  }
+
+  .our_blog__container {
+    padding: 50px 40px !important;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 32.6% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .our_blog__img {
+    background: black;
+    width: 15% !important;
+  }
+
+  .our_blog__div .our_blog__mob-img {
+    width: 738px;
+  }
+
+  .order__div {
+    padding-left: 10px !important;
+  }
+}
+@media (max-width: 1799px) and (min-width: 1400px) {
+  .container {
+    max-width: 1390px !important;
+  }
+
+  .contact__img_block {
+    display: none !important;
+  }
+
+  .our {
+    padding: 0;
+  }
+
+  .gift__right {
+    padding: 110px 45px !important;
+  }
+
+  .our_blog__container {
+    padding: 0 20px !important;
+  }
+
+  .photo_blocks__div {
+    height: fit-content !important;
+    flex-flow: wrap !important;
+    justify-content: space-between;
+  }
+  .photo_blocks__div .photo_blocks__img {
+    width: 32.6% !important;
+    margin-top: 15px;
+    margin-right: 0 !important;
+  }
+
+  .contact__work {
+    padding-left: 15px;
+  }
+
+  .order__div {
+    margin-left: 15px;
+  }
+
+  .sales_card {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+
+  .sales_card__text {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
