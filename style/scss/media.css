@@ -1,12 +1,23 @@
 @media (max-width: 449px) {
   .header {
     height: inherit;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .header .header__card {
     display: flex;
     align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
   }
 
   .catalog_block__title h1 {
@@ -144,12 +155,23 @@
 @media (max-width: 539px) and (min-width: 450px) {
   .header {
     height: inherit;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .header .header__card {
     display: flex;
     align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
   }
 
   .order__row {
@@ -273,11 +295,23 @@
 @media (max-width: 699px) and (min-width: 540px) {
   .header {
     height: inherit;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .header .header__card {
     display: flex;
     align-items: center;
+  }
+  .header .logo {
+    height: 35px;
+  }
+  .header .logo img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
   }
 
   .order__row {
