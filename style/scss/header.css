@@ -6,6 +6,22 @@
   align-items: center;
   padding: 0;
 }
+.header .sidebarIconToggle {
+  display: none;
+}
+.header .sidebarIconToggle .spinner {
+  height: 3px;
+  width: 100%;
+  background-color: #202020;
+}
+.header .sidebarIconToggle .horizontal {
+  float: left;
+  margin-top: 3px;
+}
+.header .sidebarIconToggle .diagonal.part-2 {
+  float: left;
+  margin-top: 3px;
+}
 .header ul {
   display: flex;
   align-items: center;

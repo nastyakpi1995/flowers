@@ -5,18 +5,9 @@
     margin-bottom: 40px;
     margin-top: 20px;
 
-    nav {
-      margin: 15px 0;
-      width: 100%;
-
-      ul {
-        flex-wrap: wrap;
-
-        li {
-          margin: 0 0 5px 0;
-          width: 50%;
-        }
-      }
+    .header__card {
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -140,6 +131,17 @@
       }
     }
   }
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
 
   .sales__div {
     flex-wrap: wrap;
@@ -162,18 +164,9 @@
     margin-bottom: 40px;
     margin-top: 20px;
 
-    nav {
-      margin: 15px 0;
-      width: 100%;
-
-      ul {
-        flex-wrap: wrap;
-
-        li {
-          margin: 0 0 5px 0;
-          width: 50%;
-        }
-      }
+    .header__card {
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -278,6 +271,18 @@
     }
   }
 
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+
   .sales {
 
     ul {
@@ -305,8 +310,9 @@
     height: inherit;
     margin-bottom: 40px;
 
-    nav {
-      margin: 30px 0;
+    .header__card {
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -322,6 +328,17 @@
       height: 300px;
       padding-bottom: 10px;
     }
+  }
+
+  .mob_hidden {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    display: block !important;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
   }
 
   .contact__img_block {
