@@ -210,6 +210,11 @@ a:hover {
     padding-bottom: 55px !important;
   }
 
+  .catalog_block__link a {
+    width: 175px !important;
+    height: 32px !important;
+  }
+
   .contact__work div {
     font-size: 32px !important;
     line-height: 51px !important;
