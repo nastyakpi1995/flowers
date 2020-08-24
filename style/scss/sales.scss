@@ -7,7 +7,6 @@
     justify-content: center;
     padding-bottom: 80px;
 
-
     h3 {
         border-bottom: 2px solid $primary-color;
         color: $primary-color;
@@ -28,13 +27,13 @@
 
 
 .sales {
-    padding-top: $top-default;
+    padding: $top-default 0 0 0;
     flex-direction: column;
 
     nav {
         display: flex;
         justify-content: center;
-        margin-bottom: 60px;
+        padding-bottom: 60px;
 
         ul {
             display: flex;

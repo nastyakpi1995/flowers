@@ -4,14 +4,13 @@
 .photo_blocks {
   background: #FAFAFA;
   margin-top: $top-default;
-  padding-bottom: $top-default;
+
+  .photo_blocks__main {
+    padding: 0;
+  }
 
   .photo_blocks__title {
-    padding: $top-default 0 0 0;
-
-    h3 {
-      margin-bottom: 122px;
-    }
+    padding: $top-default 0 122px 0;
   }
 
   .photo_blocks__div {
@@ -59,9 +58,5 @@
         color: #FFFFFF;
       }
     }
-  }
-
-  h3 {
-    margin-bottom: $top-default;
   }
 }

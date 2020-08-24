@@ -2,7 +2,8 @@
 @import './dimentions';
 
 .mono_bouquets {
-  margin-top: $top-default;
+  padding: $top-default 0 0 0;
+  display: flex;
 
   .mono_bouquets__div {
     display: flex;
